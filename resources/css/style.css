@@ -1,5 +1,11 @@
+/**
 div {
   border: 1px solid red;
+}
+*/
+
+body {
+  margin: 0;
 }
 
 html {
@@ -27,6 +33,8 @@ header {
   align-items: center;
   flex-wrap: wrap;
 
+  background-color: black;
+
   position: fixed;
   z-index: 1;
   height: 69px;
@@ -52,6 +60,7 @@ header .nav {
 }
 
 .main {
+
   padding-top: 69px;
   width: 1200px;
   margin: auto;
@@ -123,4 +132,17 @@ header .nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+#contact {
+  height: 200px;
+}
+
+h5 {
+  display: block;
+}
+
+.footer {
+  padding-left: 20px;
+  text-align: left;
 }
